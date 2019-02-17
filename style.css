@@ -1,0 +1,24 @@
+ima{
+  width: 150px
+}
+.subdiv{
+  border: 2px solid #dddd;
+  margin: 20;
+  padding: 15;
+  text-align: center
+}
+h1{
+  text-align: center;
+}
+.mainDiv{
+  border: 2px solid #000;
+  display: flex;
+}
+/*media query */
+@media screen and  (max-width:450px){
+  .mainDiv{
+    border: 2px solid #000
+    display: flex;
+    flex-direction: column;
+  }
+}
